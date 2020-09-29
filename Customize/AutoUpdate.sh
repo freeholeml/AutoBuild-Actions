@@ -4,8 +4,8 @@
 # AutoUpdate
 
 Version=V3.4
-DEFAULT_DEVICE=d-team_newifi-d2
-Github=https://github.com/Hyy2001X/AutoBuild-Actions
+DEFAULT_DEVICE=Newifi-D2
+Github=https://github.com/freeholeml/AutoBuild-Actions
 
 TIME() {
 echo -ne "\n[$(date "+%H:%M:%S")] "
