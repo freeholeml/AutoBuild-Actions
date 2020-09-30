@@ -6,7 +6,7 @@
 # Modify: Jensen
 #=======================================================
 
-name: AutoBuild OpenWrt
+name: OpenWrt-CI
 
 on: 
   release:
