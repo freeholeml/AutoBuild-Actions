@@ -9,17 +9,17 @@
 name: AutoBuild OpenWrt
 
 on: 
-#  release:
-#    types: [published]
+  release:
+    types: [published]
 
-#  push:
-#    branches:
-#      - main
-#    paths:
-#      - '.config'
+  push:
+    branches:
+      - main
+    paths:
+      - '.config'
 
-#  schedule:
-#    - cron: 0 8 * * 5
+  schedule:
+    - cron: 0 8 * * 5
   
   watch:
     types: [started]
